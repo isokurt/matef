@@ -10,8 +10,23 @@ namespace matef
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world");
+            
+            static void carpma()
+            {
+               double carpma;
+               double sayı1;
+               double sayı2;
+                             
+
+               carpma = sayı1 * sayı2;
+
+                Console.Writeline(carpma);
+
+            }
+            
 
         }
+        
+
     }
 }
