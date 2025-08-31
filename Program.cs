@@ -69,6 +69,27 @@
 
 static void Cikarma(int a, int b)
         {
+
+            Console.WriteLine("hello world");
+        
+        }
+
+        static void Toplama ( int sayi1, int sayi2 )
+            {
+        int toplam = sayi1 + sayi2;
+        Console.Writeline (toplam);
+            }
+        static void Toplama ( int sayi1, int sayi2, int sayi3 )
+            {
+        int toplam = sayi1 + sayi2 + sayi3;
+        Console.WriteLine (toplam);
+            }
+        static void Toplama ( int sayi1, int sayi2, int sayi3, int sayi4 )
+            {
+        int toplam = sayi1 + sayi2 + sayi3 +sayi4;
+        Console.Writeline(toplam)
+            }
+
             int sonuc = a - b;
             Console.WriteLine($"{a} - {b} = {sonuc}");
         }
@@ -83,6 +104,7 @@ static void Cikarma(int a, int b)
 
 
         
+
 
 
 
