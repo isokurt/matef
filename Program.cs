@@ -11,7 +11,7 @@ namespace matef
         static void Main(string[] args)
         {
             Console.WriteLine("hello world");
-
+        
         }
 
         static void Toplama ( int sayi1, int sayi2 )
@@ -23,6 +23,11 @@ namespace matef
             {
         int toplam = sayi1 + sayi2 + sayi3;
         Console.WriteLine (toplam);
+            }
+        static void Toplama ( int sayi1, int sayi2, int sayi3, int sayi4 )
+            {
+        int toplam = sayi1 + sayi2 + sayi3 +sayi4;
+        Console.Writeline(toplam)
             }
     }
 }
