@@ -7,7 +7,14 @@
            static void bölme {int a int b }
            {
                 int bölüm = a / b;
-                Console.Writeline{toplam};
+                Console.Writeline{bölüm};
+
+           }
+            static void bölme {int a int b int c}
+           {
+                int bölüm = a / b / c;
+             
+                Console.Writeline{bölüm};
 
            }
 
