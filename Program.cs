@@ -4,6 +4,11 @@
     {
       static void Main(string[] args)
         {
+
+            //Console.WriteLine("hello world");
+
+        }
+
            
         }
       static void bölme {int a int b }
@@ -62,12 +67,23 @@
             }
             
 
+static void Cikarma(int a, int b)
+        {
+            int sonuc = a - b;
+            Console.WriteLine($"{a} - {b} = {sonuc}");
+        }
 
+        static void Cikarma(double a, double b)
+        {
+            double sonuc = a - b;
+            Console.WriteLine($"{a} - {b} = {sonuc}");
+        }
            
           
 
 
         
+
 
 
     }
