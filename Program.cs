@@ -18,5 +18,11 @@ namespace matef
             int sonuc = a - b;
             Console.WriteLine($"{a} - {b} = {sonuc}");
         }
+
+        static void Cikarma(double a, double b)
+        {
+            double sonuc = a - b;
+            Console.WriteLine($"{a} - {b} = {sonuc}");
+        }
     }
 }
