@@ -31,6 +31,14 @@
                 Console.Writeline{bölüm};
 
            }
+           static void bölme {int a int b int c int d int e int f}
+           {
+                int bölüm = a / b / c / d / e / f;
+             
+                Console.Writeline{bölüm};
+
+           }
         }
+
     }
 }
